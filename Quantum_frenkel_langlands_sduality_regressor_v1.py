@@ -17,9 +17,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_2981.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4718_k90_loto_plus_1737.csv"),
+    Path("/data/loto7_4718_k90.csv"),
+    Path("/data/loto7_4718_k90_loto_2981.csv"),
+    Path("/data/loto7_4718_k90_loto_plus_1737.csv"),
 )
 
 
@@ -443,17 +443,17 @@ Posebnost: Modularni Hecke operatori T_p na Z_39 + S-dualnost (g <-> 1/g) na Qis
 CSV: loto7_4718_k90.csv
 Validacija NLL (g=1.35, reg=0.001): 20.4833
 Test NLL: 20.4327
-NEXT: [1, 8, 13, 18, 29, 33, 39]
+NEXT: [1, x, 13, y, 29, z, 39]
 
 CSV: loto7_4718_k90_loto_2981.csv
 Validacija NLL (g=1.35, reg=0.001): 20.4942
 Test NLL: 20.5963
-NEXT: [1, 8, 13, 21, 29, 32, 39]
+NEXT: [1, x, 13, y, 29, z, 39]
 
 CSV: loto7_4718_k90_loto_plus_1737.csv
 Validacija NLL (g=1.35, reg=0.001): 20.2305
 Test NLL: 20.3987
-NEXT: [1, 8, 11, 18, 27, 34, 39]
+NEXT: [1, x, 11, y, 27, z, 39]
 """
 
 
